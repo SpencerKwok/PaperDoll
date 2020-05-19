@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/about"
+        android:id="@+id/about"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:background="@drawable/reset"
+        android:id="@+id/reset"/>
+
+</android.widget.Toolbar>
